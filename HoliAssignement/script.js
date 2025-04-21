@@ -1,5 +1,8 @@
 // Q1. ISBN Number
 
+
+
+
 // Q3. A Number is divisible by the sum of its digits
 // let a = Number(prompt("Enter a number"))
 // let temp = a;
@@ -67,18 +70,18 @@
 // ---------------------------------------------------------------
 
 // Q8. Fint the Prime number
-function isPrime(n){
-    if (isNaN(n)) return false;
-    if (n <= 1) return false;
-    if (n == 2) return true;
-    if (n % 2 == 0) return false;
-    for (let i = 3; i <= Math.sqrt(n); i += 2) {
-        if (n % i == 0) return (false);
-    }
-    return true;
-}
-let n = Number(prompt("Enter a number"));
-alert(isPrime(n))
+// function isPrime(n){
+//     if (isNaN(n)) return false;
+//     if (n <= 1) return false;
+//     if (n == 2) return true;
+//     if (n % 2 == 0) return false;
+//     for (let i = 3; i <= Math.sqrt(n); i += 2) {
+//         if (n % i == 0) return (false);
+//     }
+//     return true;
+// }
+// let n = Number(prompt("Enter a number"));
+// alert(isPrime(n))
 
 // --------------------------------------------------------------------
 
