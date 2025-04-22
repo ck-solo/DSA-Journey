@@ -11,6 +11,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "class-34-mastering-the-basic-of-arrays": "file:",
     "prompt-sync": "^4.2.0"
   }
 }
