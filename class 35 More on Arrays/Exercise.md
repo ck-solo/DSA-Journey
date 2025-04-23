@@ -6,4 +6,4 @@ Q 25. Second max element from array✅
 
 — Q 28. Array left Rotation by 1✅
 
-— Q 29. Array left rotation by K elements
+— Q 29. Array left rotation by K elements✅
