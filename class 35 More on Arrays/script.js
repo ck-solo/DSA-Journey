@@ -36,3 +36,28 @@
 //   j--
 // }
 // console.log(arr);
+
+// -------------------------------------------
+// — Q 27. All zeroes to left and all ones to right
+// let arr = [1,0,1,1,1,0,0,0,1,0,0,1,0,0,0,0,1]
+// let i = 0 , j = 0
+// while(i<arr.length){
+//     if(arr[i]== 0){
+//         let temp = arr[i]
+//         arr[i] = arr[j]
+//         arr[j]= temp
+//         j++
+//     }
+//     i++
+// }
+// console.log(arr)
+
+// ------------------------------------------------
+// — Q 28. Array left Rotation by 1
+ let arr = [1,2,3,4,5]
+ let temp = arr[0]
+ for(let i = 0; i < arr.length-1; i++){
+    arr[i] = arr[i+1]
+ }
+ arr[arr.length-1] = temp
+ console.log(arr)
