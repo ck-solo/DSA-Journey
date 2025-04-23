@@ -65,7 +65,7 @@
 
 
 // ----------------------------
-//  — Q 29. Array left rotation by K elements
+//  — Q 29. Array right rotation by 1
  let arr = [1,2,3,4,5]
  let temp = arr[arr.length-1]
  for(let i = arr.length-1; i > 0;i--){
