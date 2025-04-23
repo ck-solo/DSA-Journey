@@ -12,15 +12,27 @@
 // console.log("The max1 number is " + max1)
 // console.log("The max2 number is " + max2)
 
-// ------------------------------------- 
+// -------------------------------------
 
 // — Q 26. Reverse the array
-let arr = [1,2,3,4,5,6]
-let temp = new Array(arr.length)
-let i = 0;
-for(let j = arr.length-1;j>=0; j--){
-    temp[i] = arr[j]
-    i++
-}
-console.log(temp)
+// let arr = [1,2,3,4,5,6]
+// let temp = new Array(arr.length)
+// let i = 0;
+// for(let j = arr.length-1;j>=0; j--){
+//     temp[i] = arr[j]
+//     i++
+// }
+// console.log(temp)
 
+// let arr = [1, 2, 3, 4, 5, 6];
+// let i = 0,
+//   j = arr.length - 1;
+
+// while (i < j) {
+//   let temp = arr[i];
+//   arr[i] = arr[j];
+//   arr[j] = temp;
+//   i++;
+//   j--
+// }
+// console.log(arr);
