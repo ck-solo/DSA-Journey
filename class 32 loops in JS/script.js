@@ -3,32 +3,26 @@
 // do {
 //   console.log("Hello");
 //   input = prompt("Want to Continue ? yes/no").toLowerCase();
-
-//   if(input){
-//     input - input.toLowerCase();
-//   }else{
-//     input = 'no'
-//   }
 // } while (input === "yes");
 
 // ----------------------------------------------------------
 // Q. Guess the number✅
-// let number = Math.floor(Math.random() * 100) + 1;
-// let guess = Number(prompt("Guess the number between 1 to 100"));
-// while (guess !== number) {
-//  if(isNaN(guess) || guess < 1 || guess > 100) {
-//     alert("Please enter a valid number between 1 and 100!")
-//  }
-//    else if (guess < number) {
-//         alert("To Low")
-//     } else if (guess > number) {
-//         alert("To High")
-//     }
-//     else{
-//     }
-//     guess = Number(prompt("Try again: Guess the number between 1 to 100"));
-// }
-// alert("You Won");
+let guess = Math.floor(Math.random() * 100) + 1;
+let inp;
+do{
+    inp = Number(prompt("Guess a number between 1 to 100"))
+    if(isNaN(inp) || inp < 0 || inp > 100 ) {
+        console.log("Enter a valid number")
+        continue
+    }
+    if(inp > guess) console.log("Too High , Try Again ")
+    else if(inp < guess) console.log("Too Low , Try Again ")
+    else console.log("Congratulation 🎉, You Won" + guess)
+    
+}
+while(inp !== guess)
+
+
 
 // ----------------------------------------------------
 // Q. sasta Calculator✅
