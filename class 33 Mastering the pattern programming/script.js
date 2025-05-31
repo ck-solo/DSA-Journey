@@ -1,21 +1,21 @@
-// const prompt = require("prompt-sync")();
-// let n = Number(prompt("Enter a number "));
-// Solution 35 Right Angle Triangle✅
-// for(let i = 1; i<=n; i++){
-//     for(let j = 1; j<=i;j++){
+// Solution 35✅
+// const prompt = require("prompt-sync")()
+// let n = Number(prompt("Enter a number "))
+// for(let i = 1; i <= n; i++){
+//     for(let j = 1; j <= i; j++){
 //         process.stdout.write("* ")
 //     }
-//     console.log();
-// }
+//     console.log()
+// } 
 
 // Solution 36✅
-// const prompt = require("prompt-sync")();
-// let n = Number(prompt("Enter a number "));
-// for(let i = 1; i<=n; i++){
-//     for(let j = 1; j<=i;j++){
-//         process.stdout.write(j+ " ")
+//  const prompt = require("prompt-sync")()
+//  const n = Number(prompt("Enter a number "))
+//  for(let i = 1 ; i <= n ; i++){
+//      for(let j = 1; j <= i; j++){
+//         process.stdout.write(j + " ") 
 //     }
-//     console.log();
+//     console.log()
 // }
 
 // Solution 37✅
@@ -29,14 +29,15 @@
 // }
 
 // Solution 38 ✅
-// const prompt = require("prompt-sync")();
-// let n = Number(prompt("Enter a number "));
-// for (let i = 1; i <= n; i++) {
-//   for (let j = 1; j <= n-i; j++) {
-//     process.stdout.write("* ");
-//   }
-// console.log();
-// }
+ const prompt = require("prompt-sync")();
+ let n = Number(prompt("Enter a number "))
+for(let i = n; i >= 1; i--){
+    for(let j = 1; j <= i ; j++){
+        process.stdout.write("* ")
+    }
+    console.log()
+}
+
 
 //Solution 39✅
 // const prompt = require("prompt-sync")();
@@ -73,7 +74,7 @@
 //     for(let j = 1; j<=(n*2); j++)
 //     if(i==j || i+j === n*2){
 //         process.stdout.write("*")
-//     }else{
+//     }else{ 
 //         process.stdout.write(" ")
 
 //     }
@@ -94,8 +95,8 @@
 // console.log()
 // }
  
-let count = 0;
-for (let i = 2; i<=20; i+=3){
-    count++
-}
-console.log(count)
+// let count = 0;
+// for (let i = 2; i<=20; i+=3){
+//     count++
+// }
+// console.log(count)
