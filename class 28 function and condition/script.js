@@ -22,8 +22,8 @@ if(a+b <= c || b + c <= a || c + a <= b){
 }
 
 // Q4.  Circumeference of circle
-let rad = Number(prompt("Enter value of radius"));
-console.log(2 * Math.PI* rad)
+let radius = Number(prompt("Enter value of radius"));
+console.log(2 * Math.PI* radius)
 
 // -----------------------------------------------------------------
 // IF ELSE
