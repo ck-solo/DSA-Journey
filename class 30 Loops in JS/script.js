@@ -12,8 +12,8 @@
 // --------------------------------------------------------
 
 // Q3. Reverse for loop. Print n to 1.
-// let numb = Number(prompt("Enter a number"))
-// for(let i = numb; i >= 1; i--){
+// let num = Number(prompt("Enter a number"))
+// for(let i = num; i >= 1; i--){
 //     console.log(i)
 // }
 // --------------------------------------------------------
@@ -30,7 +30,7 @@
 //Q5. Sum up to n terms.
 
         // let number = Number(prompt("Enter a number"));
-        // let sum =0;
+        // let sum = 0;
         // if(isNaN(number)) return
         // for(let i = 0; i <=number; i++){
         //     sum = sum + i
