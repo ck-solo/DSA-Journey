@@ -66,10 +66,10 @@
 
 // ----------------------------
 //  — Q 29. Array right rotation by 1
- let arr = [1,2,3,4,5]
- let temp = arr[arr.length-1]
- for(let i = arr.length-1; i > 0;i--){
-    arr[i] = arr[i-1]
+ let array = [1,2,3,4,5]
+ let temp = array[array.length-1]
+ for(let i = array.length-1; i > 0;i--){
+    array[i] = array[i-1]
  }
- arr[0] = temp
-console.log(arr)
+ array[0] = temp
+console.log(array)
