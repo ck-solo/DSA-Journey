@@ -1,15 +1,13 @@
 // Q1. ISBN Number
 
 
-
-
 // Q3. A Number is divisible by the sum of its digits
 // let a = Number(prompt("Enter a number"))
 // let temp = a;
 // let sum = 0
-// while(temp >0){
-//     let rem = temp % 10;
-//     sum = sum + rem;
+// while(temp > 0){
+//     let reminder = temp % 10;
+//     sum = sum + reminder;
 //     temp = Math.floor(temp/10)
 // }
 // if(a % sum == 0){
