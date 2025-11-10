@@ -11,7 +11,7 @@
 //     temp = Math.floor(temp/10)
 // }
 // if(a % sum == 0){
-//     console.log("completely divisible by the sum of its digits");
+//     console.log(" The number is completely divisible by the sum of its digits");
 // }else{
 //     console.log("The number is not divisible by the sum of its digits");
 // }
